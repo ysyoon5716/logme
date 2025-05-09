@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Logeme</title>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <div class="mx-auto max-w-2xl">
+      <h1 class="text-3xl text-center font-bold mt-8 mb-8">Logme</h1>
+      <div class="bg-white rounded-lg p-4 min-h-screen">
+        <div class="flex gap-4 items-center">
+          <input type="text" id="logInput" class="flex-1 h-12 px-2 border border-gray-300 rounded-md" placeholder="Enter your log">
+          <button id="logButton" class="bg-blue-500 text-white px-4 py-2 rounded-md">Log</button>
+        </div>
+        <div id="logs" class="mt-4">
+          <h2 class="text-2xl font-bold">Logs</h2>
+          <div id="logsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="/src/main.js"></script>
+</html>
